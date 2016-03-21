@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,header ul{margin:0; }
+body{ background:#dedede; }
+table{ border-collapse:collapse; border:1px solid #A2A0A0; width:100%;}
+
+header{ height:78px; background:#333333; position:relative; }
+article,div,aside{ margin:20px 20px 18px 20px; background:#ffffff; border-top:1px solid #cdcdcd; border-left:1px solid #cdcdcd; border-right:3px solid #848484; border-bottom:3px solid #848484; padding:20px;}
+aside{ margin-right:40px; margin-top:40px;position:relative;height:570px; }
+footer{ height:88px; background:#333333; font:14px/88px "宋体"; color:white;text-align:center;}
+
+header img{position:absolute; top:50%; margin-top:-24px; left:3%;}
+header nav a{ text-decoration:none; color:white; line-height:78px;}
+#navLi1,#navLi2,#navLi3,#navLi4{ position:absolute; }
+nav {
+	float:right;
+	display:inline-block;
+}
+.navli {
+	float:left;
+	margin:0 20px 0 0;
+}
+ .navLi4{ opacity:0.5;filter:alpha(opacity=50);}
+article ul{list-style:none; }
+
+figure{ border:1px solid #B7B5B5; width:329px; margin:40px;}
+figcaption{ padding:15px; text-align:center; padding-bottom:0; }
+figure img{ padding:15px;}
+
+p{ text-indent:2em; }
+article h3,article span,time{ color:#676666;}
+#spanTable{color:black; }
+th,td{height:28px;}
+th{ background:#333333; color:white; text-align:left; }
+.trBottom{ background:#A2A0A0; font-weight:bold; }
+.topLeft{ width:40%; }
+#topRight{ width:20%;}
+
+aside h3{ position:absolute; left:34px; top:15px;}
+form{ margin:0; height:520px;width:100%;position:absolute;left:0;}
+textarea{ overflow:auto; width:50%; height:100px; resize:none; }
+.inputBox{ position:absolute; left:40%; }
+.text{ position:absolute; right:62%; }
+.tips{ color:#888787;}
+#commit{ height:46px; background:blue; border:0;position:absolute;color:white; font:20px/46px "微软雅黑";text-align:center; bottom:20px;width:96%;margin:0 2%; -moz-border-radius:15px; border-radius:10px;}
