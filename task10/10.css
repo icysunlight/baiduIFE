@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0;
+	padding: 10px 20px;
+	}
+.outer {
+	padding: 10px 0;
+	}
+.inner {
+	border: 1px solid #f00;
+	}
+.first {
+	height: 120px;
+	}
+.second {
+	height: 100px;
+	}
+.third {
+	height: 40px;
+	}
+.forth {
+	height: 200px;
+	border: 1px solid #0f0;
+	}
+.outer {
+	flex: 0 0 150px;
+	}
+@media (min-width: 641px){
+.fixbox {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-between;
+	}
+}
+@media (max-width: 640px){
+.outerForth {
+	order: -1;
+	}
+.fixbox {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+	justify-content: space-between;
+	align-content: flex-start;
+	}
+}
+
+
